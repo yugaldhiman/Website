@@ -14,9 +14,7 @@ const Header = () => {
                     <li><NavLink to='/contact'>Contact</NavLink></li>
                 </ul>
             </header>
-
             <Outlet />
-
         </>
     )
 }
