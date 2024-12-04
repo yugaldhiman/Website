@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Future = () => {
+const Startup = () => {
     return (
         <div>
-
+            <h1>startup</h1>
         </div>
     )
 }
 
-export default Future
+export default Startup
