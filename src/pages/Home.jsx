@@ -7,12 +7,13 @@ import { Autoplay } from "swiper/modules";
 import pic1 from "../assets/pic1.jpg";
 import pic2 from "../assets/pic2.jpg";
 import pic3 from "../assets/pic3.jpg";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
 
     const services = [
-        { id: 1, name: 'Accounting', description: 'We provide cost-effective and qualitative Financial Accounting Services to Corporate, firms as well as individuals. We provide accurate and timely services full range of accounting, book writing services, quarterly updates and financial statement preparation services. Some of the services offered by us include:' },
-        { id: 2, name: 'Auditing & Assurance', description: 'We offer our auditing services to the traders and industrialist of all size and nature. We strictly adhere to the audit norms to execute the audit work of our clients. We study the working systems, nature and volume of business and advise suitable changes and make valuable suggestions to promote efficiency and achieve better results at the same time.' },
+        { id: 1, name: 'Accounting', description: 'We provide cost-effective and qualitative Financial Accounting Services to Corporate, firms as well as individuals. We provide accurate and timely services full range of accounting, book writing services, quarterly updates and financial statement preparation services. Some of the services offered by us include:', type: "accounting" },
+        { id: 2, name: 'Auditing & Assurance', description: 'We offer our auditing services to the traders and industrialist of all size and nature. We strictly adhere to the audit norms to execute the audit work of our clients. We study the working systems, nature and volume of business and advise suitable changes and make valuable suggestions to promote efficiency and achieve better results at the same time.', type: "auditing" },
         { id: 3, name: 'Income Tax', description: 'We provide Tax assistance, Direct Tax Consultancy, Tax Compliances and Tax Representation services. We advise our clients in effective identification and implementation of tax planning opportunities under the Income-tax law for the establishment and subsequent profitable conduct of business by the Indian companies in different sectors, so as to reduce their income-tax liability. Some of the major tax assistance services available for the clients are:' },
         { id: 4, name: 'Corporate Matters', description: 'We provides consultation services to clients on matters related to the company law by consulting the individuals and groups from the very beginning like procedures related to formation and fulfilling mandatory obligations during operation of the company. Our services include:' },
         { id: 5, name: 'Financing Services', description: 'For any business to be successful, it should have adequate supply of finances. This is especially true in case of growing countries like India. Businesses that are well nourished economically operate efficiently and they are the ones that take advantage of the market during opportune moments. Therefore in order to support client’s business for their working capital needs, we remain involved at every step of loaning process and provide our best services so that our clients get their needed finance easily.' },
@@ -23,6 +24,10 @@ const Home = () => {
         { id: 10, name: 'NGO/Society/Trust', description: 'We provide range of services starting from incorporation or registration of NGO/SOCIETY/TRUST, changing trustees or members, getting the government aids for various projects and closing down the NGO/SOCIETY/TRUST. In a nutshell we provide service from inception to end in relation to NGO/SOCIETY/TRUST.' },
     ];
 
+    function getServiceLink(service) {
+        if (service.type === "accounting") return `/accounting/${service.id}`;
+        if (service.type === "auditing") return `/auditing/${service.id}`;
+    }
 
 
     return (
@@ -48,7 +53,7 @@ const Home = () => {
                 <div className="servicesContainer">
                     {services.map((service) => (
                         <div key={service.id} className="serviceCard">
-                            <h3>{service.name}</h3>
+                            <NavLink to={getServiceLink(service)}>{service.name}</NavLink>
                             <p>{service.description}</p>
                         </div>
                     ))}

@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './componant/Header'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import Accounting from './service/Accounting'
+import Auditing from './service/Auditing'
 function App() {
 
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
-        {/* </Route> */}
-      </Routes>
+        <Route path='/accounting/:id' element={<Accounting />} />
+        <Route path='/auditing/:id' element={<Auditing />} />
+      </Routes >
     </>
   )
 }
