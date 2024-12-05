@@ -16,8 +16,9 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         alert(`Thank you for contacting us, ${formData.name}!`);
-        setFormData({ name: "", email: "", message: "" }); // Reset form
+        setFormData({ name: "", email: "", message: "" });
     };
+
     return (
         <>
             <div className="contact-container">
