@@ -30,7 +30,7 @@
 @media (max-width: 768px) {
     .mainDiv {
         width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .images {
@@ -88,10 +88,12 @@
 }
 
 .nav-link {
-    color: blue;
+    /* color: blue; */
+    color: black;
     text-decoration: none;
     padding: 8px 12px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
     transition: color 0.3s ease, transform 0.2s ease;
 }
 

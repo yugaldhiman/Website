@@ -1,5 +1,4 @@
-/* Global reset */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -70,4 +69,4 @@ header a:hover {
     header a {
         font-size: 0.9rem;
     }
-}
+} */

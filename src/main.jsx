@@ -5,7 +5,9 @@ import App from './App.jsx';
 import './index.css';
 import Header from './componant/Header.jsx';
 import Footer from './componant/Footer.jsx';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 createRoot(document.getElementById('root')).render(
