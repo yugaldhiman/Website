@@ -14,17 +14,17 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/home">Home</NavLink>
+                                <NavLink className="nav-link" to="/home">HOME</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">About-Us</NavLink>
+                                <NavLink className="nav-link" to="/about">ABOUT US</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                                <NavLink className="nav-link" to="/contact">CONTACT</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
+                                    SERVICE'S
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><NavLink className="dropdown-item" to="/accounting/${service.id}">Accounting</NavLink></li>
