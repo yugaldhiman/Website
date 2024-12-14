@@ -30,9 +30,7 @@ function Auditing() {
                     <p> <span>*</span> Internal audit</p>
                     <p> <span>*</span> Statutory Audit</p>
                     <p> <span>*</span> Stock Audit</p>
-                    <p>
-                        Audit under various revenue laws like Income Tax Audit u/s 44AB etc.
-                    </p>
+                    <p> <span>*</span> Audit under various revenue laws like Income Tax Audit u/s 44AB etc.</p>
                 </div>
                 <div className="auditingMainBoxChilde_right">
                     <Contact />
