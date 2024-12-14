@@ -17,11 +17,11 @@ function Accounting() {
                         services, quarterly updates and financial statement preparation
                         services. Some of the services offered by us include:
                     </p>
-                    <p> Book-Writing</p>
-                    <p>Payroll Reconciliation</p>
-                    <p>Checking Account Reconciliation</p>
-                    <p>Accounts Receivable/Payable Reconciliations</p>
-                    <p>Preparation of Management Accounts and Statutory Accounts.</p>
+                    <p> <span>*</span> Book-Writing</p>
+                    <p> <span>*</span> Payroll Reconciliation</p>
+                    <p> <span>*</span> Checking Account Reconciliation</p>
+                    <p> <span>*</span> Accounts Receivable/Payable Reconciliations</p>
+                    <p> <span>*</span> Preparation of Management Accounts and Statutory Accounts.</p>
                 </div>
                 <div className="accountingMainBoxChilde_right">
                     <Contact />

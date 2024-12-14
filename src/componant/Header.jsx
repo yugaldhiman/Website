@@ -28,7 +28,7 @@ const Header = () => {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><NavLink className="dropdown-item" to="/accounting/${service.id}">Accounting</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="/auditing/${service.id}">Auditing</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to="/auditing/${service.id}">Auditing & Assurance</NavLink></li>
                                     <li><NavLink className="dropdown-item" to="/incometex/${service.id}">Income-Tex</NavLink></li>
                                     <li><NavLink className="dropdown-item" to="/corporatematters/${service.id}">Corporate Matters</NavLink></li>
                                     <li><NavLink className="dropdown-item" to="/financingservices/${service.id}">Financing Services</NavLink></li>
