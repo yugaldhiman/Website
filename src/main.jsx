@@ -1,10 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App.js';
+import App from './App.jsx';
 import './index.css';
-import Header from './componant/Header.js';
-import Footer from './componant/Footer.js';
+import Header from './componant/Header.jsx';
+import Footer from './componant/Footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
