@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const Startup = () => {
-    return (
-        <div>
-            <h1>startup</h1>
-        </div>
-    )
-}
-
-export default Startup
-=======
 import React from "react";
 import image from "../assets/startup.jpg";
 import Contact from "../pages/Contact";
@@ -53,4 +41,3 @@ const Startup = () => {
 };
 
 export default Startup;
->>>>>>> 99f49cc (uploads project)

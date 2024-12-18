@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const NgoSocietyTrust = () => {
-    return (
-        <div>
-            <h1>NgoSocietyTrust</h1>
-        </div>
-    )
-}
-
-export default NgoSocietyTrust
-=======
 import React from "react";
 import image from "../assets/ngoSocityTrust.jpg";
 import Contact from "../pages/Contact";
@@ -61,4 +49,3 @@ const NgoSocietyTrust = () => {
 };
 
 export default NgoSocietyTrust;
->>>>>>> 99f49cc (uploads project)

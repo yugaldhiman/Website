@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const BusinessConsultancyServices = () => {
-    return (
-        <div>
-            <h1>BusinessConsultancyServices</h1>
-        </div>
-    )
-}
-
-export default BusinessConsultancyServices
-=======
 import React from "react";
 import image from "../assets/businessConsultance.jpg";
 import Contact from "../pages/Contact";
@@ -60,4 +48,3 @@ const BusinessConsultancyServices = () => {
 };
 
 export default BusinessConsultancyServices;
->>>>>>> 99f49cc (uploads project)

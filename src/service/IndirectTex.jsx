@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const IndirectTex = () => {
-    return (
-        <div>
-            <h1>IndirectTex</h1>
-        </div>
-    )
-}
-
-export default IndirectTex
-=======
 import React from "react";
 import image from "../assets/indirectTex.jpg";
 import Contact from "../pages/Contact";
@@ -54,4 +42,3 @@ const IndirectTex = () => {
 };
 
 export default IndirectTex;
->>>>>>> 99f49cc (uploads project)

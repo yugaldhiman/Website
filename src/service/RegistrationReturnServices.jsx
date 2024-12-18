@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const RegistrationReturnServices = () => {
-  return (
-    <div>
-      <h1>RegistrationReturnServices</h1>
-    </div>
-  )
-}
-
-export default RegistrationReturnServices
-=======
 import React from "react";
 import image from "../assets/returnServices.jpg";
 import Contact from "../pages/Contact";
@@ -61,4 +49,3 @@ const RegistrationReturnServices = () => {
 };
 
 export default RegistrationReturnServices;
->>>>>>> 99f49cc (uploads project)
