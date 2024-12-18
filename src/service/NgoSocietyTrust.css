@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eef2f5;
+}
+
+.NgoSocietyTrustMAinBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.NgoSocietyTrustMAinBox h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.NgoSocietyTrustMAinBox p:first-of-type {
+    width: 100%;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.NgoSocietyTrustMainBoxChilde_left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.NgoSocietyTrustMainBoxChilde_left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.NgoSocietyTrustMainBoxChilde_left p {
+    margin: 12px 0;
+    color: #34495e;
+    font-size: 1rem;
+}
+
+.NgoSocietyTrustMainBoxChilde_right {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f7f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .NgoSocietyTrustMAinBox {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .NgoSocietyTrustMAinBox h1 {
+        font-size: 2rem;
+    }
+
+    .NgoSocietyTrustMAinBox p:first-of-type {
+        font-size: 1rem;
+    }
+
+    .NgoSocietyTrustMainBoxChilde_left,
+    .NgoSocietyTrustMainBoxChilde_right {
+        max-width: 100%;
+    }
+
+    .NgoSocietyTrustMainBoxChilde_right {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .NgoSocietyTrustMAinBox {
+        padding: 15px;
+    }
+
+    .NgoSocietyTrustMAinBox h1 {
+        font-size: 1.5rem;
+    }
+
+    .NgoSocietyTrustMAinBox p:first-of-type {
+        font-size: 0.9rem;
+    }
+
+    .NgoSocietyTrustMainBoxChilde_left img {
+        margin-bottom: 15px;
+    }
+
+    .NgoSocietyTrustMainBoxChilde_left p {
+        font-size: 0.9rem;
+    }
+}
